@@ -25,3 +25,47 @@ body {
   height: auto;
   border-radius: 10px;
 }
+
+.page-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f0ece2;
+    border-radius: 12px;
+}
+
+/* Center main title */
+.page-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Resource sections spacing */
+.page-container h2 {
+    margin-top: 30px;
+    color: #1f3d3a;
+}
+
+/* Paragraph readability */
+.page-container p {
+    line-height: 1.6;
+}
+
+/* Link styling & interaction */
+.page-container a {
+    color: #0b4f6c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.page-container a:hover {
+    text-decoration: underline;
+    color: #083a50;
+}
+
+/* Divider styling */
+.page-container hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
